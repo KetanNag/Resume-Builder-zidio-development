@@ -55,5 +55,9 @@ export const FiltersData = [
   },
   { id: "20", label: "Legal Counsel", value: "legal_counsel" },
 ];
+export const TemplatesData = [
+  { id: `template-${Date.now()}`, name: "Template1", component: Template1 },
+  { id: `template-${Date.now()}`, name: "Template2", component: Template2 },
+];
 
 
